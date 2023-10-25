@@ -1,0 +1,27 @@
+.list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  box-shadow: 10px 8px 35px -9px rgba(0, 0, 0, 0.91);
+}
+
+.descrList {
+  font-size: 20px;
+}
+
+.btnDel {
+  font-size: 18px;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+}
