@@ -84,3 +84,5 @@ export class App extends Component {
     );
   }
 }
+
+console.log('hello');
