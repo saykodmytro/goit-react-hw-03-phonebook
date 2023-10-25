@@ -12,6 +12,10 @@ export default class PhoneForm extends Component {
     evt.preventDefault();
     const newContact = { ...this.state, id: nanoid(5) };
     this.props.handleAddContact(newContact);
+    this.setState({
+      name: 'Test',
+      number: '1111',
+    });
   };
 
   handleChange = e => {
